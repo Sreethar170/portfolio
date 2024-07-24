@@ -47,13 +47,12 @@ table{
     height:50px;
     width: 80px;
     border-radius: 15px;
-    box-shadow: 0 0 5px blue, 
-    0 0 25px blue;
-    background-color: blue;
-    text-col
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan;
+    background-color: cyan;
  }
  .button:hover{
-    box-shadow: 0 0 5px blue,
-    00 0 25px blue, 0 0 50px blue,
-    0 0 100px blue, 0 0 200px blue
+    box-shadow: 0 0 5px cyan,
+    00 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
  }
