@@ -1,5 +1,8 @@
 .text{
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: medium;
 }
 body{
     background-color: black;
@@ -21,5 +24,36 @@ table{
     border: 100px;
 }
 #hello{
-    text-align: center;
+    padding-left: 570px;
 }
+#resume_button{
+    padding-left: 150px;
+    padding-top: 10px;
+}
+#div_3{
+    border: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+ #div_1{
+    display: flex;
+    padding-top: -20px;
+ }
+ #div_2{
+   padding-left: 100px;
+ }
+ .button{
+    height:50px;
+    width: 80px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px blue, 
+    0 0 25px blue;
+    background-color: blue;
+    text-col
+ }
+ .button:hover{
+    box-shadow: 0 0 5px blue,
+    00 0 25px blue, 0 0 50px blue,
+    0 0 100px blue, 0 0 200px blue
+ }
