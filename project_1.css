@@ -1,0 +1,27 @@
+.text{
+    color: white;
+}
+body{
+    background-color: black;
+}
+footer{
+    padding-top: 20%;
+    padding-left: 42%;
+}
+#copyrights{
+    padding-top: 2%;
+}
+table{
+    padding-left: 12%;
+}
+#git{
+    padding-left: 20%;
+}
+.boxmodel{
+    margin: 20px;
+    height: 20px;
+    border: 100px;
+}
+#hello{
+    text-align: center;
+}
