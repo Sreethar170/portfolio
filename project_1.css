@@ -12,9 +12,9 @@ footer{
     /* padding-left: 50%; */
 }
 #copyrights{
-    padding-left: 40%;
+    padding-left: 42%;
 }
-.socialmedia{
+#socialmedia{
     padding-left: 47%;   
 }
 #Name{
@@ -30,7 +30,7 @@ footer{
     175%{color:rgb(255, 0, 0) ;}
 }
 .social{
-    padding-left: 20%;
+    padding-left: 30%;
 }
 #div_1{
     display: flex;
