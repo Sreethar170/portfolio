@@ -17,17 +17,29 @@ footer{
 .socialmedia{
     padding-left: 47%;   
 }
-
+#Name{
+    animation:nam 3s infinite;
+}
+@keyframes nam{
+    25%{color:rgb(255, 0, 0) ;}
+    50%{color:rgb(251, 255, 0) ;}
+    75%{color:rgb(0, 255, 30) ;}
+    100%{color:rgb(0, 247, 255) ;}
+    125%{color:rgb(17, 0, 255) ;}
+    150%{color:rgb(247, 0, 255) ;}
+    175%{color:rgb(255, 0, 0) ;}
+}
 .social{
     padding-left: 20%;
 }
 #div_1{
     display: flex;
     padding-right: 10%;
-    border-color: whitesmoke;
+    color: aqua;
+
 }
 #div_3{
-
+    padding-left: 2%;
 }
  #div_2{
    padding-left: 16%;
