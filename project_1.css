@@ -23,14 +23,11 @@ footer{
 }
 
 #div_3{
-    border: 10px;
-    padding-left: 90px;
-    padding-right: 250px;
-    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- #div_1{
+ /* #div_1{
     padding-top: -20px;
- }
+ } */
  #div_2{
    padding-left: 200px;
  }
@@ -45,8 +42,13 @@ footer{
 li:hover{
     background-color: white;
     color: black;
+    padding-left: 20px;
+    border-radius: 25px;
+    padding: 10%;
     padding-left: 30px;
-    border-radius: 25%;
+}
+a:hover{
+    color: black;
 }
 ul{
     
@@ -59,6 +61,8 @@ li{
     font-size: 30px;
 }
 #Name{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size:50px;
+    animation-delay: 0.2s;
 }
