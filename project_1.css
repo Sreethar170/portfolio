@@ -18,7 +18,7 @@ footer{
     padding-left: 47%;   
 }
 #Name{
-    animation:nam 3s infinite;
+    animation:nam 8s infinite;
 }
 @keyframes nam{
     25%{color:rgb(255, 0, 0) ;}
@@ -38,28 +38,23 @@ footer{
     color: aqua;
 
 }
-#div_3{
+#about{
     padding-left: 2%;
 }
  #div_2{
    padding-left: 16%;
  }
 
-.menu{
-    list-style-type: none;
-}
 li:hover{
-    height: 5%;
-    background-color: white;
-    color: black; 
-    border-radius: 40%;
-    padding: 5%;
+    color: rgb(21, 255, 0);
 }
-
+.id:hover{
+    color: rgb(4, 255, 0);
+}
 ul{
     display: flex;
     padding-left: 45%;
-    
+    list-style-type: none;
 }
 li{
     padding-left: 3%;
@@ -69,7 +64,4 @@ li{
     
     text-align: center;
     font-size:200%;
-}
-.c{
-    color: black;
 }
