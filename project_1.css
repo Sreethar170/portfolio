@@ -70,7 +70,21 @@ footer{
     text-align: center;
     font-size:200%;
 }
+#Education{
+    font-size: 200%; 
+    padding-left: 25%;
+    padding-top: 2%;
+}
 .Education_d{
     padding-left: 33%;
     font-size: 200%;
+}
+#Achievements{
+    font-size: 200%; 
+    padding-left: 25%;
+    padding-top: 2%;
+}
+.Achievements_d{
+    padding-left: 11%;
+    font-size: 100%;
 }
