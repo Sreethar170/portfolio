@@ -1,7 +1,6 @@
 .text{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: medium;
 }
 body{
     background-color: black;
@@ -57,14 +56,14 @@ footer{
 .id:hover{
     color: rgb(4, 255, 0);
 }
-.u_l{
+.bar{
     display: flex;
-    padding-left: 45%;
+    padding-left: 55%;
     list-style-type: none;
 }
 .menu{
     padding-left: 3%;
-    font-size: 200%;
+    font-size: 100%;
 }
 #Name{
     
