@@ -6,15 +6,13 @@
 }
 body{
     background-color: black;
+    border: 0px;
 }
 footer{
     padding-top: 20%;
     padding-left: 42%;
 }
 
-table{
-    padding-left: 12%;
-}
 #git{
     padding-left: 20%;
 }
@@ -23,36 +21,44 @@ table{
     height: 20px;
     border: 100px;
 }
-#hello{
-    padding-left: 690px;
-}
-#resume_button{
-    padding-left: 150px;
-    padding-top: 10px;
-}
+
 #div_3{
     border: 10px;
     padding-left: 90px;
-    padding-right: 90px;
+    padding-right: 250px;
     padding-top: 10px;
 }
  #div_1{
-    display: flex;
     padding-top: -20px;
  }
  #div_2{
-   padding-left: 100px;
+   padding-left: 200px;
  }
- .button{
-    height:50px;
-    width: 80px;
-    border-radius: 15px;
-    box-shadow: 0 0 5px cyan, 
-    0 0 25px cyan;
-    background-color: cyan;
- }
- .button:hover{
-    box-shadow: 0 0 5px cyan,
-    00 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
- }
+.flex{
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
+.menu{
+    list-style-type: none;
+}
+li:hover{
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    border-radius: 25%;
+}
+ul{
+    
+    display: flex;
+    padding-left: 80%;
+    
+}
+li{
+    padding-left: 30px;
+    font-size: 30px;
+}
+#Name{
+    text-align: center;
+    font-size:50px;
+}
