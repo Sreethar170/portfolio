@@ -19,6 +19,8 @@ footer{
     padding-left: 43%;   
 }
 #Name{
+    
+    font-family: "Caveat", cursive;
     animation:nam 8s infinite;
 }
 @keyframes nam{
@@ -41,6 +43,8 @@ footer{
 }
 #about{
     padding-left: 2%;
+    text-align: justify;
+    padding-right: 7%;
 }
  #div_2{
    padding-left: 16%;
