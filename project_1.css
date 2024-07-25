@@ -5,63 +5,59 @@
 }
 body{
     background-color: black;
-    border: 0px;
+    border: 0%;
 }
 footer{
     padding-top: 20%;
-    padding-left: 42%;
+    /* padding-left: 50%; */
+}
+#copyrights{
+    padding-left: 40%;
+}
+.socialmedia{
+    padding-left: 47%;   
 }
 
-#git{
+.social{
     padding-left: 20%;
 }
-.boxmodel{
-    margin: 20px;
-    height: 20px;
-    border: 100px;
-}
-
 #div_1{
     display: flex;
+    padding-right: 10%;
+    border-color: whitesmoke;
 }
 #div_3{
 
 }
  #div_2{
-   padding-left: 200px;
+   padding-left: 16%;
  }
-.flex{
-    display: flex; 
-    justify-content: space-evenly;
-    
-}
+
 .menu{
     list-style-type: none;
 }
 li:hover{
+    height: 5%;
     background-color: white;
-    color: black;
-    padding-left: 20px;
-    border-radius: 25px;
-    padding: 10%;
-    padding-left: 30px;
+    color: black; 
+    border-radius: 40%;
+    padding: 5%;
 }
-a:hover{
-    color: black;
-}
+
 ul{
-    
     display: flex;
-    padding-left: 80%;
+    padding-left: 45%;
     
 }
 li{
-    padding-left: 30px;
-    font-size: 30px;
+    padding-left: 3%;
+    font-size: 200%;
 }
 #Name{
     
     text-align: center;
-    font-size:40px;
-    animation-delay: 0.2s;
+    font-size:200%;
+}
+.c{
+    color: black;
 }
