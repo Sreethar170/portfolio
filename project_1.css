@@ -7,6 +7,7 @@ body{
     background-color: black;
     border: 0%;
     user-select: auto !important;
+    color:white;
 }
 footer{
     padding-top: 20%;
@@ -50,18 +51,18 @@ footer{
    padding-left: 16%;
  }
 
-li:hover{
+.menu:hover{
     color: rgb(21, 255, 0);
 }
 .id:hover{
     color: rgb(4, 255, 0);
 }
-ul{
+.u_l{
     display: flex;
     padding-left: 45%;
     list-style-type: none;
 }
-li{
+.menu{
     padding-left: 3%;
     font-size: 200%;
 }
@@ -69,4 +70,8 @@ li{
     
     text-align: center;
     font-size:200%;
+}
+.Education_d{
+    padding-left: 33%;
+    font-size: 200%;
 }
