@@ -97,3 +97,8 @@ footer{
     /* font-size: 100%;
     padding-right: 5%; */
 }
+.line_1{
+    height: 150px;
+    width: 5px;
+    background-color: white;
+}
