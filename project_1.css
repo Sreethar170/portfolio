@@ -23,6 +23,7 @@ footer{
     padding-top: 15%;
     font-family: "Caveat", cursive;
     animation:nam 8s infinite;
+    padding-bottom: 20%;
 }
 @keyframes nam{
     25%{color:rgb(255, 0, 0) ;}
