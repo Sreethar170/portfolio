@@ -40,7 +40,7 @@ footer{
     padding-right: 10%;
 }
 #about{
-    padding-left: 2%;
+    padding-left: 20%;
     text-align: justify;
     padding-right: 7%;
     color: rgb(255, 255, 255);
@@ -96,9 +96,4 @@ footer{
     padding-left: 11%;
     /* font-size: 100%;
     padding-right: 5%; */
-}
-.line_1{
-    height: 150px;
-    width: 5px;
-    background-color: white;
 }
