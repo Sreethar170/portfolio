@@ -60,16 +60,12 @@ footer{
 }
 .bar{
     display: flex;
-    padding-left: 48%;
+    padding-left: 45%;
     list-style-type: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: flex-start;
-    align-items: stretch;
+    
 }
 .menu{
-    padding-left: 3%;
+    padding-left: 2%;
     font-size: 150%;
 }
 #Name{
