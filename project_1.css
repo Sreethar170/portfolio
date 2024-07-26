@@ -19,7 +19,8 @@ footer{
     padding-left: 43%;   
 }
 #Name{
-    
+    text-align: center;
+    padding-top: 15%;
     font-family: "Caveat", cursive;
     animation:nam 8s infinite;
 }
@@ -38,6 +39,7 @@ footer{
 #div_1{
     display: flex;
     padding-right: 10%;
+    padding-top: 20%;
 }
 #about{
     padding-left: 9%;
