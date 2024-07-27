@@ -39,7 +39,7 @@ footer{
 }
 #div_1{
     display: flex;
-    padding-right: 10%;
+    /* padding-right: 10%; */
     padding-top: 2%;
 }
 #about{
@@ -60,9 +60,9 @@ footer{
 }
 .bar{
     display: flex;
-    padding-left: 45%;
+    justify-content: flex-end;
     list-style-type: none;
-    
+    font-size: large;
 }
 .menu{
     padding-left: 2%;
