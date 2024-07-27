@@ -67,7 +67,6 @@ div{
     padding-right: 5%;
  }
 .id:hover{
-    width: 10px;
     background-color: orangered;
     color: white;
     border-radius: 25px;
@@ -76,7 +75,7 @@ div{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    font-size: xx-large;
+    font-size: 80%;
     align-items:center;
     height: 100px;
     background-color: rgb(36, 35, 35);
@@ -95,7 +94,7 @@ div{
 #Name{
     
     text-align: center;
-    font-size:100%;
+    font-size:200%;
 }
 #Education{
     font-size: 150%; 
