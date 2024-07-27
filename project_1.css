@@ -8,6 +8,7 @@ body{
     border: 0%;
     user-select: auto !important;
     color:rgb(255, 255, 255);
+    font-size: xx-large;
     
 }
 footer{
@@ -41,9 +42,10 @@ footer{
 }
 #div_1{
     display: flex;
+    padding-left: 5%;
 }
 #about_1{
-    font-size: 500%;   
+    font-size: 250%;   
     padding-left: 12%; 
     padding-top: 0%;
 }
@@ -52,7 +54,7 @@ footer{
     text-align: justify;
     padding-right: 2%;
     color: rgb(0, 0, 0);
-    font-size: 250%;
+    font-size: 100%;
 }
 div{
     color: black;
@@ -93,7 +95,7 @@ div{
 #Name{
     
     text-align: center;
-    font-size:200%;
+    font-size:100%;
 }
 #Education{
     font-size: 150%; 
