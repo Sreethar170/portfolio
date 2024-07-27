@@ -11,16 +11,6 @@ body{
     font-size: xx-large;
     
 }
-footer{
-    padding-top: 20%;
-    /* padding-left: 50%; */
-}
-#copyrights{
-    text-align: center;
-}
-#socialmedia{
-    padding-left: 43%;   
-}
 #Name{
     text-align: center;
     padding-top: 15%;
@@ -59,13 +49,13 @@ footer{
 div{
     color: black;
 }
- #div_2{
-   padding-left: 1%;
- }
- .id{
+#div_2{
+    padding-left: 1%;
+}
+.id{
     padding-left: 10%;
     padding-right: 5%;
- }
+}
 .id:hover{
     background-color: orangered;
     color: white;
@@ -75,7 +65,7 @@ div{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    font-size: 80%;
+    font-size: 50%;
     align-items:center;
     height: 100px;
     background-color: rgb(36, 35, 35);
@@ -94,7 +84,7 @@ div{
 #Name{
     
     text-align: center;
-    font-size:200%;
+    font-size:100%;
 }
 #Education{
     font-size: 150%; 
@@ -124,4 +114,14 @@ div{
     padding-left: 11%;
     /* font-size: 100%;
     padding-right: 5%; */
+}
+footer{
+    padding-top: 20%;
+    /* padding-left: 50%; */
+}
+#copyrights{
+    text-align: center;
+}
+#socialmedia{
+    align-content: center;
 }
