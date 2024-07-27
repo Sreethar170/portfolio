@@ -122,4 +122,6 @@ footer{
     text-align: center;
 }
 #socialmedia{
+    display: flex !important;
+    justify-content: center;
 }
