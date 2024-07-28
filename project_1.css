@@ -24,23 +24,44 @@ body{
     }
 }
 .name{
-    display: inline-flex;
-    
+    font-size: 5em;
+    font-family: monospace;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 20px;
+}
+.name_d{
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(19), 
+    cursor .6s step-end infinite alternate;
+}
+@keyframes cursor{
+    80%{border-color : transparent}
+}
+@keyframes typing {
+    from {width: 0 } 
 }
 .social{
     padding-left: 30%;
 }
-#div_1{
-    display: flex;
-    padding-left: 5%;
-}
 .About{
-    color: rgb(0, 255, 251);
+    color: #00ffee;
     text-align: center;
+    transition: 0.3s ease;
+    border-bottom: 5px solid transparent;
     font-size: 80px;
     animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+}
+.About:hover{
+ color: aqua;
+ border-bottom: 5px solid aqua;
 }
 .about_1{
     display: flex;
@@ -86,13 +107,14 @@ div{
     padding-left: 1%;
 }
 .id{
+    font-size: 1fr;
     padding-left: 10%;
     padding-right: 5%;
 }
 .id:hover{
-    background-color: orangered;
-    color: white;
-    border-radius: 25px;
+    border-bottom: 4px solid aqua;
+    color: rgb(255, 255, 255);
+    border-radius: 4px ;
 }
 .bar{
     display: flex;
@@ -129,8 +151,8 @@ div{
     padding-top: 2%;
 }
 .Education_d{
-    padding-left: 10%;
     font-size: 30px;
+    padding-left: 200px;
     animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -174,8 +196,6 @@ div{
 }
 footer{
     padding-top: 20%;
-    /* padding-left: 50%; */
-    
 }
 #copyrights{
     text-align: center;
