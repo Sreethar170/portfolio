@@ -4,27 +4,28 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
-    background-color: #ffffff;
+    background-color: #1f242d;
     border: 0%;
     user-select: auto !important;
-    color:rgb(255, 255, 255);
-    font-size: xx-large;
+    font-size: 100%;
+  
     
 }
-#Name{
-    /* padding-top: 10%; */
-    font-family: "Caveat", cursive;
-    animation:nam 8s infinite;
-    padding-bottom: 20%;
+@keyframes appear{
+    from{
+        opacity: 0;
+        /* transform: translateX(-100px); */
+        clip-path: inset(1005 1005 0 0);
+    }
+    to{
+        opacity: 1;
+        /* transform: translateX(0px); */
+        clip-path: inset(0 0 0 0);
+    }
 }
-@keyframes nam{
-    25%{color:rgb(255, 0, 0) ;}
-    50%{color:rgb(251, 255, 0) ;}
-    75%{color:rgb(0, 255, 30) ;}
-    100%{color:rgb(0, 247, 255) ;}
-    125%{color:rgb(17, 0, 255) ;}
-    150%{color:rgb(247, 0, 255) ;}
-    175%{color:rgb(255, 0, 0) ;}
+.name{
+    display: inline-flex;
+    
 }
 .social{
     padding-left: 30%;
@@ -33,20 +34,53 @@ body{
     display: flex;
     padding-left: 5%;
 }
-#about_1{
-    font-size: 250%;   
-    padding-left: 12%; 
-    padding-top: 0%;
+.About{
+    color: rgb(0, 255, 251);
+    text-align: center;
+    font-size: 80px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
-#about{
-    padding-left: 9%;
+.about_1{
+    display: flex;
+    justify-content: center;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+ #about{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% auto;
     text-align: justify;
-    padding-right: 2%;
-    color: rgb(0, 0, 0);
-    font-size: 100%;
-}
+    padding-right: 4%;
+    background-color: rgb(78, 152, 152);
+    height: 600px;
+    align-content: center;
+    border-radius: 50px;
+    font-size: 30px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+ }
+ .ph{
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+ }
+ .about_d{
+    text-align: justify;
+    padding-right: 4%;
+    color: rgb(8, 10, 10);
+ }
 div{
-    color: black;
+    color: rgb(253, 250, 250);
 }
 #div_2{
     padding-left: 1%;
@@ -65,11 +99,11 @@ div{
     justify-content: flex-end;
     list-style-type: none;
     margin: 0;
-    font-size: 50%;
     align-items:center;
     height: 100px;
     background-color: rgb(36, 35, 35);
     padding-right: 2%;
+    font-size: 100%;
 }
 .flex{
     display: flex;
@@ -77,46 +111,71 @@ div{
     
 }
 .menu{
-    padding-left: 2%;
+    padding-left: 40px;
     font-size: 150%;
 }
-#Name{
+/* #Name{
     
     text-align: center;
     font-size:100%;
-}
+} */
 #Education{
-    font-size: 150%; 
+    color: rgb(0, 255, 251);
+    font-size: 80px;
     padding-left: 3%;
-    
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
     padding-top: 2%;
 }
 .Education_d{
     padding-left: 10%;
-    font-size: larger;
+    font-size: 30px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 #Achievements{
-    font-size: larger; 
-    padding-left: 50%;
+    color: rgb(0, 255, 251);
+    font-size: 80px;
+    padding-left: 40%;
     padding-top: 2%;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .Achievements_d{
-    padding-left: 15%;
+    padding-left: 50%;
     /* font-size: 100%; */
+    font-size: 30px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 #Experience{
+    color: rgb(0, 255, 251);
     font-size: larger; 
     padding-left: 18%;
     padding-top: 2%;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    font-size: 80px;
 }
 .Experience_d{
+    
     padding-left: 11%;
     /* font-size: 100%;
     padding-right: 5%; */
+    animation: appear  linear;
+    font-size: 30px;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 footer{
     padding-top: 20%;
     /* padding-left: 50%; */
+    
 }
 #copyrights{
     text-align: center;
