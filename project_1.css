@@ -186,7 +186,7 @@ div{
 }
 .Experience_d{
     
-    padding-left: 11%;
+    padding-left: 25%;
     /* font-size: 100%;
     padding-right: 5%; */
     animation: appear  linear;
@@ -201,6 +201,5 @@ footer{
     text-align: center;
 }
 #socialmedia{
-    display: flex !important;
-    justify-content: center;
+    
 }
